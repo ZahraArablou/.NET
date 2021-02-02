@@ -1,0 +1,57 @@
+﻿<Window x:Class="LibraryManagementSystem.ReturnBook"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LibraryManagementSystem"
+        mc:Ignorable="d"
+        Title="ReturnBook" Height="532.836" Width="958.955" RenderSize="1024,438" Background="#ffc080" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+    <ScrollViewer VerticalScrollBarVisibility="Auto">
+        <Grid Height="575">
+            <Grid HorizontalAlignment="Left" Height="390" Margin="10,10,0,0" VerticalAlignment="Top" Width="266" RenderSize="259,368" Background="White">
+                <Image Source="Image/icons8-student-male-100.png" HorizontalAlignment="Left" Height="129" Margin="63,10,0,0" VerticalAlignment="Top" Width="137" Stretch="Fill"/>
+                <Label Content="Enter Enrollment No" HorizontalAlignment="Left" Margin="63,156,0,0" VerticalAlignment="Top" FontSize="16" FontFamily="Calibri" FontWeight="Bold"/>
+                <TextBox x:Name="tbEnroll" HorizontalAlignment="Left" Height="30" Margin="35,191,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="201" FontSize="14"/>
+                <Button x:Name="btSearch" Content="Search Student" HorizontalAlignment="Left" Margin="63,250,0,0" VerticalAlignment="Top" Width="145" RenderTransformOrigin="-0.034,-0.547" Height="43" FontSize="16" FontWeight="Bold" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" BorderBrush="#FF6C6969" Click="btSearch_Click"/>
+                <Button Name="btRefresh" Content="Refresh" HorizontalAlignment="Left" Margin="35,327,0,0" VerticalAlignment="Top" Width="83" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" FontSize="16" FontWeight="Bold" BorderBrush="#FF6C6969" Height="38" Click="btRefresh_Click"/>
+                <Button x:Name="btExit" Content="Exit" HorizontalAlignment="Left" Margin="151,327,0,0" VerticalAlignment="Top" Width="85" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" FontSize="16" FontWeight="Bold" BorderBrush="#FF6C6969" Height="38" Click="btExit_Click"/>
+            </Grid>
+            <Grid HorizontalAlignment="Left" Height="127" Margin="286,11,0,0" VerticalAlignment="Top" Width="645"  Background="#FFFFFAE6" >
+                <Label Content="" HorizontalAlignment="Left" Margin="19,8,0,0" VerticalAlignment="Top" Width="102" FontSize="14" FontFamily="Calibri" FontWeight="Bold"/>
+                <Label Content="Name " HorizontalAlignment="Left" Margin="19,8,0,0" VerticalAlignment="Top" Width="102" FontSize="14" FontFamily="Calibri" FontWeight="Bold"/>
+                <Label Content="Email" HorizontalAlignment="Left" Margin="345,48,0,0" VerticalAlignment="Top" Width="102" FontSize="14" FontFamily="Calibri" FontWeight="Bold"/>
+                <Label Content="Contact" HorizontalAlignment="Left" Margin="344,10,0,0" VerticalAlignment="Top" Width="102" FontSize="14" FontFamily="Calibri" FontWeight="Bold"/>
+                <Label Content="Semester" HorizontalAlignment="Left" Margin="20,83,0,0" VerticalAlignment="Top" Width="102" FontSize="14" FontFamily="Calibri" FontWeight="Bold"/>
+                <Label Content="Department" HorizontalAlignment="Left" Margin="19,46,0,0" VerticalAlignment="Top" Width="102" FontSize="14" FontFamily="Calibri" FontWeight="Bold"/>
+                <TextBox HorizontalAlignment="Left" Height="23" Margin="121,12,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="199" FontSize="16" FontFamily="Calibri" FontWeight="Bold"/>
+                <TextBox x:Name="tbName" HorizontalAlignment="Left" Height="23" Margin="121,12,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="199" FontSize="16" FontFamily="Calibri" FontWeight="Bold" IsReadOnly="True"/>
+                <TextBox x:Name="tbContact" HorizontalAlignment="Left" Height="23" Margin="420,14,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="199" FontSize="16" FontFamily="Calibri" FontWeight="Bold" IsReadOnly="True"/>
+                <TextBox x:Name="tbSem" HorizontalAlignment="Left" Height="23" Margin="122,87,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="199" FontSize="16" FontFamily="Calibri" FontWeight="Bold" IsReadOnly="True"/>
+                <TextBox x:Name="tbEmail" HorizontalAlignment="Left" Height="23" Margin="420,52,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="199" FontSize="16" FontFamily="Calibri" FontWeight="Bold" IsReadOnly="True"/>
+                <TextBox x:Name="tbDep" HorizontalAlignment="Left" Height="23" Margin="121,50,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="199" FontSize="16" FontFamily="Calibri" FontWeight="Bold" IsReadOnly="True"/>
+            </Grid>
+            <Grid Name="grid1" HorizontalAlignment="Left" Height="158" Margin="286,405,0,0" VerticalAlignment="Top" Width="639" Background="#c0ffff">
+                <Label Content="Book Name" HorizontalAlignment="Left" Margin="19,28,0,0" VerticalAlignment="Top" Width="129" FontSize="14" FontFamily="Calibri" FontWeight="Bold"/>
+                <Label Content="Book Return Date" HorizontalAlignment="Left" Margin="19,104,0,0" VerticalAlignment="Top" Width="129" FontSize="14" FontFamily="Calibri" FontWeight="Bold"/>
+                <Label Content="Book Issue Date" HorizontalAlignment="Left" Margin="19,67,0,0" VerticalAlignment="Top" Width="129" FontSize="14" FontFamily="Calibri" FontWeight="Bold"/>
+                <TextBox x:Name="tbBookName" HorizontalAlignment="Left" Height="27" Margin="153,28,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="256" FontSize="16" FontFamily="Calibri" IsReadOnly="True"/>
+                <TextBox x:Name="tbDate" HorizontalAlignment="Left" Height="27" Margin="153,67,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="256" FontSize="16" FontFamily="Calibri" IsReadOnly="True"/>
+                <Button x:Name="btReturn" Content="Return" HorizontalAlignment="Left" Margin="476,67,0,0" VerticalAlignment="Top" Width="87" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" BorderBrush="#FF14ABF1" FontSize="14" FontWeight="Bold" FontFamily="Calibri" Height="34" RenderTransformOrigin="0.857,0.752" Click="btReturn_Click"/>
+                <Button x:Name="btCancel" Content="Cancel" HorizontalAlignment="Left" Margin="476,111,0,0" VerticalAlignment="Top" Width="87" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" BorderBrush="#FF14ABF1" FontSize="14" FontWeight="Bold" FontFamily="Calibri"  Height="34" RenderTransformOrigin="0.857,0.752" Click="btCancel_Click"/>
+                <DatePicker x:Name="dateReturn" HorizontalAlignment="Left" Margin="153,111,0,0" VerticalAlignment="Top" Width="256" Height="23"/>
+            </Grid>
+            <ListView Name="lvBooks" HorizontalAlignment="Left" Height="257" Margin="286,143,0,0" VerticalAlignment="Top" Width="645" Background="#FFE4E0E0" SelectionChanged="lvBooks_SelectionChanged">
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn Header="Book Name" Width="auto" DisplayMemberBinding="{Binding bName}"/>
+                        <GridViewColumn Header="Author" Width="auto" DisplayMemberBinding="{Binding bAuthor}"/>
+                        <GridViewColumn Header="Publication" Width="auto" DisplayMemberBinding="{Binding bPubl}"/>
+                        <GridViewColumn Header="Issued Date" Width="auto" DisplayMemberBinding="{Binding IssueDate,StringFormat=d}"/>
+
+                    </GridView>
+                </ListView.View>
+            </ListView>
+
+        </Grid>
+    </ScrollViewer>
+</Window>

@@ -1,0 +1,33 @@
+﻿<Window x:Class="LibraryManagementSystem.AddStudent"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LibraryManagementSystem"
+        mc:Ignorable="d"
+        Title="AddStudent" Height="539.553" Width="804.477" RenderSize="700,467" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+    <Grid>
+        <Grid HorizontalAlignment="Left" Height="100" Margin="10,10,0,0" VerticalAlignment="Top" Width="776" Background="white">
+            <Image Source="Image/icons8-student-male-1000.png" HorizontalAlignment="Left" Height="100" Margin="256,0,0,0" VerticalAlignment="Top" Width="115" Stretch="Fill"/>
+            <Label Content="Add Student" HorizontalAlignment="Left" Margin="371,36,0,0" VerticalAlignment="Top" FontFamily="Microsoft Sans Serif" FontSize="18" FontStretch="ExtraExpanded" FontWeight="Bold" RenderTransformOrigin="0.299,0.324"/>
+        </Grid>
+        <Image Source="Image/addstudent.gif" HorizontalAlignment="Left" Height="387" Margin="10,110,0,0" VerticalAlignment="Top" Width="281" Stretch="Fill"/>
+        <Grid HorizontalAlignment="Left" Background="PaleTurquoise"  Height="392" Margin="291,110,0,0" VerticalAlignment="Top" Width="495">
+            <Label Content="Student Name" HorizontalAlignment="Left" Margin="45,21,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.686" FontWeight="Bold" FontSize="16" FontFamily="Calibri"/>
+            <Label Content="Enrollment No" HorizontalAlignment="Left" Margin="45,66,0,0" VerticalAlignment="Top" FontFamily="Calibri" FontSize="16" FontWeight="Bold"/>
+            <Label Content="Department" HorizontalAlignment="Left" Margin="45,111,0,0" VerticalAlignment="Top" FontFamily="Calibri" FontSize="16" FontWeight="Bold"/>
+            <Label Content="Student Semester" HorizontalAlignment="Left" Margin="45,157,0,0" VerticalAlignment="Top" FontFamily="Calibri" FontSize="16" FontWeight="Bold"/>
+            <Label Content="Student Contact" HorizontalAlignment="Left" Margin="45,207,0,0" VerticalAlignment="Top" FontFamily="Calibri" FontSize="16" FontWeight="Bold"/>
+            <Label Content="Student Email" HorizontalAlignment="Left" Margin="45,259,0,0" VerticalAlignment="Top" FontFamily="Calibri" FontSize="16" FontWeight="Bold"/>
+            <TextBox x:Name="tbSName" HorizontalAlignment="Left" Height="23" Margin="187,25,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="249"/>
+            <TextBox x:Name="tbSEnrollNo" HorizontalAlignment="Left" Height="23" Margin="187,70,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="249"/>
+            <TextBox x:Name="tbDep" HorizontalAlignment="Left" Height="23" Margin="187,115,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="249"/>
+            <TextBox x:Name="tbSSem" HorizontalAlignment="Left" Height="23" Margin="187,161,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="249"/>
+            <TextBox x:Name="tbSContact" HorizontalAlignment="Left" Height="23" Margin="187,211,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="249"/>
+            <TextBox x:Name="tbSEmail" HorizontalAlignment="Left" Height="23" Margin="187,263,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="249"/>
+            <Button x:Name="btRefresh" Content="Refresh" HorizontalAlignment="Left" Margin="157,326,0,0" VerticalAlignment="Top" Width="75" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" BorderBrush="#FF129195" Height="35" FontWeight="Bold" FontSize="16" FontFamily="Calibri" Click="btRefresh_Click"/>
+            <Button x:Name="btSave" Content="Save Info" HorizontalAlignment="Left" Margin="260,326,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.288,1.316" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" BorderBrush="#FF3E7C93" Height="35" FontWeight="Bold" FontSize="16" FontFamily="Calibri" Click="btSave_Click"/>
+            <Button x:Name="btExit" Content="Exit" HorizontalAlignment="Left" Margin="361,326,0,0" VerticalAlignment="Top" Width="75" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" BorderBrush="#FF129195" Height="35" FontWeight="Bold" FontSize="16" FontFamily="Calibri" Click="btExit_Click"/>
+        </Grid>
+    </Grid>
+</Window>

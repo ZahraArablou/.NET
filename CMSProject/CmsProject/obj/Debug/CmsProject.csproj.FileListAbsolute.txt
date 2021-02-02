@@ -1,0 +1,346 @@
+C:\Users\heshmat\Documents\cmsproject\CmsProject\bin\Debug\CmsProject.exe.config
+C:\Users\heshmat\Documents\cmsproject\CmsProject\bin\Debug\CmsProject.exe
+C:\Users\heshmat\Documents\cmsproject\CmsProject\bin\Debug\CmsProject.pdb
+C:\Users\heshmat\Documents\cmsproject\CmsProject\bin\Debug\EntityFramework.dll
+C:\Users\heshmat\Documents\cmsproject\CmsProject\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\heshmat\Documents\cmsproject\CmsProject\bin\Debug\EntityFramework.xml
+C:\Users\heshmat\Documents\cmsproject\CmsProject\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\heshmat\Documents\cmsproject\CmsProject\obj\Debug\CmsProject.csprojAssemblyReference.cache
+C:\Users\heshmat\Documents\cmsproject\CmsProject\obj\Debug\CourseDialog.g.cs
+C:\Users\heshmat\Documents\cmsproject\CmsProject\obj\Debug\CourseSectionDialog.g.cs
+C:\Users\heshmat\Documents\cmsproject\CmsProject\obj\Debug\EnrollementDialog.g.cs
+C:\Users\heshmat\Documents\cmsproject\CmsProject\obj\Debug\EnrollementSectionWizard.g.cs
+C:\Users\heshmat\Documents\cmsproject\CmsProject\obj\Debug\EnrollementStudentWizard.g.cs
+C:\Users\heshmat\Documents\cmsproject\CmsProject\obj\Debug\GradeDiaog.g.cs
+C:\Users\heshmat\Documents\cmsproject\CmsProject\obj\Debug\MainWindow.g.cs
+C:\Users\heshmat\Documents\cmsproject\CmsProject\obj\Debug\ReportDialog.g.cs
+C:\Users\heshmat\Documents\cmsproject\CmsProject\obj\Debug\StudentDialog.g.cs
+C:\Users\heshmat\Documents\cmsproject\CmsProject\obj\Debug\TeacherDialog.g.cs
+C:\Users\heshmat\Documents\cmsproject\CmsProject\obj\Debug\MenuUserControl.g.cs
+C:\Users\heshmat\Documents\cmsproject\CmsProject\obj\Debug\App.g.cs
+C:\Users\heshmat\Documents\cmsproject\CmsProject\obj\Debug\CmsProject_Content.g.cs
+C:\Users\heshmat\Documents\cmsproject\CmsProject\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\heshmat\Documents\cmsproject\CmsProject\obj\Debug\CmsProject_MarkupCompile.cache
+C:\Users\heshmat\Documents\cmsproject\CmsProject\obj\Debug\CmsProject_MarkupCompile.lref
+C:\Users\heshmat\Documents\cmsproject\CmsProject\obj\Debug\CourseDialog.baml
+C:\Users\heshmat\Documents\cmsproject\CmsProject\obj\Debug\CourseSectionDialog.baml
+C:\Users\heshmat\Documents\cmsproject\CmsProject\obj\Debug\EnrollementDialog.baml
+C:\Users\heshmat\Documents\cmsproject\CmsProject\obj\Debug\EnrollementSectionWizard.baml
+C:\Users\heshmat\Documents\cmsproject\CmsProject\obj\Debug\EnrollementStudentWizard.baml
+C:\Users\heshmat\Documents\cmsproject\CmsProject\obj\Debug\GradeDiaog.baml
+C:\Users\heshmat\Documents\cmsproject\CmsProject\obj\Debug\MainWindow.baml
+C:\Users\heshmat\Documents\cmsproject\CmsProject\obj\Debug\ReportDialog.baml
+C:\Users\heshmat\Documents\cmsproject\CmsProject\obj\Debug\StudentDialog.baml
+C:\Users\heshmat\Documents\cmsproject\CmsProject\obj\Debug\TeacherDialog.baml
+C:\Users\heshmat\Documents\cmsproject\CmsProject\obj\Debug\MenuUserControl.baml
+C:\Users\heshmat\Documents\cmsproject\CmsProject\obj\Debug\CmsProject.g.resources
+C:\Users\heshmat\Documents\cmsproject\CmsProject\obj\Debug\CmsProject.Properties.Resources.resources
+C:\Users\heshmat\Documents\cmsproject\CmsProject\obj\Debug\CmsProject.csproj.GenerateResource.cache
+C:\Users\heshmat\Documents\cmsproject\CmsProject\obj\Debug\CmsProject.csproj.CoreCompileInputs.cache
+C:\Users\heshmat\Documents\cmsproject\CmsProject\obj\Debug\CmsProject.csproj.CopyComplete
+C:\Users\heshmat\Documents\cmsproject\CmsProject\obj\Debug\CmsProject.exe
+C:\Users\heshmat\Documents\cmsproject\CmsProject\obj\Debug\CmsProject.pdb
+G:\IPD23\Entity Framework\Project\cmsproject\CmsProject\bin\Debug\CmsProject.exe.config
+G:\IPD23\Entity Framework\Project\cmsproject\CmsProject\bin\Debug\CmsProject.exe
+G:\IPD23\Entity Framework\Project\cmsproject\CmsProject\bin\Debug\CmsProject.pdb
+G:\IPD23\Entity Framework\Project\cmsproject\CmsProject\bin\Debug\EntityFramework.dll
+G:\IPD23\Entity Framework\Project\cmsproject\CmsProject\bin\Debug\EntityFramework.SqlServer.dll
+G:\IPD23\Entity Framework\Project\cmsproject\CmsProject\bin\Debug\EntityFramework.xml
+G:\IPD23\Entity Framework\Project\cmsproject\CmsProject\bin\Debug\EntityFramework.SqlServer.xml
+G:\IPD23\Entity Framework\Project\cmsproject\CmsProject\obj\Debug\CmsProject.csprojAssemblyReference.cache
+G:\IPD23\Entity Framework\Project\cmsproject\CmsProject\obj\Debug\CourseDialog.g.cs
+G:\IPD23\Entity Framework\Project\cmsproject\CmsProject\obj\Debug\CourseSectionDialog.g.cs
+G:\IPD23\Entity Framework\Project\cmsproject\CmsProject\obj\Debug\EnrollementDialog.g.cs
+G:\IPD23\Entity Framework\Project\cmsproject\CmsProject\obj\Debug\EnrollementSectionWizard.g.cs
+G:\IPD23\Entity Framework\Project\cmsproject\CmsProject\obj\Debug\EnrollementStudentWizard.g.cs
+G:\IPD23\Entity Framework\Project\cmsproject\CmsProject\obj\Debug\GradeDiaog.g.cs
+G:\IPD23\Entity Framework\Project\cmsproject\CmsProject\obj\Debug\MainWindow.g.cs
+G:\IPD23\Entity Framework\Project\cmsproject\CmsProject\obj\Debug\ReportDialog.g.cs
+G:\IPD23\Entity Framework\Project\cmsproject\CmsProject\obj\Debug\StudentDialog.g.cs
+G:\IPD23\Entity Framework\Project\cmsproject\CmsProject\obj\Debug\TeacherDialog.g.cs
+G:\IPD23\Entity Framework\Project\cmsproject\CmsProject\obj\Debug\MenuUserControl.g.cs
+G:\IPD23\Entity Framework\Project\cmsproject\CmsProject\obj\Debug\App.g.cs
+G:\IPD23\Entity Framework\Project\cmsproject\CmsProject\obj\Debug\CmsProject_Content.g.cs
+G:\IPD23\Entity Framework\Project\cmsproject\CmsProject\obj\Debug\GeneratedInternalTypeHelper.g.cs
+G:\IPD23\Entity Framework\Project\cmsproject\CmsProject\obj\Debug\CmsProject_MarkupCompile.cache
+G:\IPD23\Entity Framework\Project\cmsproject\CmsProject\obj\Debug\CmsProject_MarkupCompile.lref
+G:\IPD23\Entity Framework\Project\cmsproject\CmsProject\obj\Debug\CourseDialog.baml
+G:\IPD23\Entity Framework\Project\cmsproject\CmsProject\obj\Debug\CourseSectionDialog.baml
+G:\IPD23\Entity Framework\Project\cmsproject\CmsProject\obj\Debug\EnrollementDialog.baml
+G:\IPD23\Entity Framework\Project\cmsproject\CmsProject\obj\Debug\EnrollementSectionWizard.baml
+G:\IPD23\Entity Framework\Project\cmsproject\CmsProject\obj\Debug\EnrollementStudentWizard.baml
+G:\IPD23\Entity Framework\Project\cmsproject\CmsProject\obj\Debug\GradeDiaog.baml
+G:\IPD23\Entity Framework\Project\cmsproject\CmsProject\obj\Debug\MainWindow.baml
+G:\IPD23\Entity Framework\Project\cmsproject\CmsProject\obj\Debug\ReportDialog.baml
+G:\IPD23\Entity Framework\Project\cmsproject\CmsProject\obj\Debug\StudentDialog.baml
+G:\IPD23\Entity Framework\Project\cmsproject\CmsProject\obj\Debug\TeacherDialog.baml
+G:\IPD23\Entity Framework\Project\cmsproject\CmsProject\obj\Debug\MenuUserControl.baml
+G:\IPD23\Entity Framework\Project\cmsproject\CmsProject\obj\Debug\CmsProject.g.resources
+G:\IPD23\Entity Framework\Project\cmsproject\CmsProject\obj\Debug\CmsProject.Properties.Resources.resources
+G:\IPD23\Entity Framework\Project\cmsproject\CmsProject\obj\Debug\CmsProject.csproj.GenerateResource.cache
+G:\IPD23\Entity Framework\Project\cmsproject\CmsProject\obj\Debug\CmsProject.csproj.CoreCompileInputs.cache
+G:\IPD23\Entity Framework\Project\cmsproject\CmsProject\obj\Debug\CmsProject.csproj.CopyComplete
+G:\IPD23\Entity Framework\Project\cmsproject\CmsProject\obj\Debug\CmsProject.exe
+G:\IPD23\Entity Framework\Project\cmsproject\CmsProject\obj\Debug\CmsProject.pdb
+C:\Users\parinaz\Downloads\cmsproject\CmsProject\bin\Debug\CmsProject.exe.config
+C:\Users\parinaz\Downloads\cmsproject\CmsProject\bin\Debug\CmsProject.exe
+C:\Users\parinaz\Downloads\cmsproject\CmsProject\bin\Debug\CmsProject.pdb
+C:\Users\parinaz\Downloads\cmsproject\CmsProject\bin\Debug\EntityFramework.dll
+C:\Users\parinaz\Downloads\cmsproject\CmsProject\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\parinaz\Downloads\cmsproject\CmsProject\bin\Debug\EntityFramework.xml
+C:\Users\parinaz\Downloads\cmsproject\CmsProject\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\parinaz\Downloads\cmsproject\CmsProject\obj\Debug\CmsProject.csprojAssemblyReference.cache
+C:\Users\parinaz\Downloads\cmsproject\CmsProject\obj\Debug\CourseDialog.g.cs
+C:\Users\parinaz\Downloads\cmsproject\CmsProject\obj\Debug\CourseSectionDialog.g.cs
+C:\Users\parinaz\Downloads\cmsproject\CmsProject\obj\Debug\EnrollementDialog.g.cs
+C:\Users\parinaz\Downloads\cmsproject\CmsProject\obj\Debug\EnrollementSectionWizard.g.cs
+C:\Users\parinaz\Downloads\cmsproject\CmsProject\obj\Debug\EnrollementStudentWizard.g.cs
+C:\Users\parinaz\Downloads\cmsproject\CmsProject\obj\Debug\GradeDiaog.g.cs
+C:\Users\parinaz\Downloads\cmsproject\CmsProject\obj\Debug\MainWindow.g.cs
+C:\Users\parinaz\Downloads\cmsproject\CmsProject\obj\Debug\ReportDialog.g.cs
+C:\Users\parinaz\Downloads\cmsproject\CmsProject\obj\Debug\StudentDialog.g.cs
+C:\Users\parinaz\Downloads\cmsproject\CmsProject\obj\Debug\TeacherDialog.g.cs
+C:\Users\parinaz\Downloads\cmsproject\CmsProject\obj\Debug\MenuUserControl.g.cs
+C:\Users\parinaz\Downloads\cmsproject\CmsProject\obj\Debug\App.g.cs
+C:\Users\parinaz\Downloads\cmsproject\CmsProject\obj\Debug\CmsProject_Content.g.cs
+C:\Users\parinaz\Downloads\cmsproject\CmsProject\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\parinaz\Downloads\cmsproject\CmsProject\obj\Debug\CmsProject_MarkupCompile.cache
+C:\Users\parinaz\Downloads\cmsproject\CmsProject\obj\Debug\CmsProject_MarkupCompile.lref
+C:\Users\parinaz\Downloads\cmsproject\CmsProject\obj\Debug\CourseDialog.baml
+C:\Users\parinaz\Downloads\cmsproject\CmsProject\obj\Debug\CourseSectionDialog.baml
+C:\Users\parinaz\Downloads\cmsproject\CmsProject\obj\Debug\EnrollementDialog.baml
+C:\Users\parinaz\Downloads\cmsproject\CmsProject\obj\Debug\EnrollementSectionWizard.baml
+C:\Users\parinaz\Downloads\cmsproject\CmsProject\obj\Debug\EnrollementStudentWizard.baml
+C:\Users\parinaz\Downloads\cmsproject\CmsProject\obj\Debug\GradeDiaog.baml
+C:\Users\parinaz\Downloads\cmsproject\CmsProject\obj\Debug\MainWindow.baml
+C:\Users\parinaz\Downloads\cmsproject\CmsProject\obj\Debug\ReportDialog.baml
+C:\Users\parinaz\Downloads\cmsproject\CmsProject\obj\Debug\StudentDialog.baml
+C:\Users\parinaz\Downloads\cmsproject\CmsProject\obj\Debug\TeacherDialog.baml
+C:\Users\parinaz\Downloads\cmsproject\CmsProject\obj\Debug\MenuUserControl.baml
+C:\Users\parinaz\Downloads\cmsproject\CmsProject\obj\Debug\CmsProject.g.resources
+C:\Users\parinaz\Downloads\cmsproject\CmsProject\obj\Debug\CmsProject.Properties.Resources.resources
+C:\Users\parinaz\Downloads\cmsproject\CmsProject\obj\Debug\CmsProject.csproj.GenerateResource.cache
+C:\Users\parinaz\Downloads\cmsproject\CmsProject\obj\Debug\CmsProject.csproj.CoreCompileInputs.cache
+C:\Users\parinaz\Downloads\cmsproject\CmsProject\obj\Debug\CmsProject.csproj.CopyComplete
+C:\Users\parinaz\Downloads\cmsproject\CmsProject\obj\Debug\CmsProject.exe
+C:\Users\parinaz\Downloads\cmsproject\CmsProject\obj\Debug\CmsProject.pdb
+C:\Users\parinaz\Desktop\CmsProject\CmsProject\obj\Debug\CourseSectionDialog.g.cs
+C:\Users\parinaz\Desktop\CmsProject\CmsProject\obj\Debug\EnrollementSectionWizard.g.cs
+C:\Users\parinaz\Desktop\CmsProject\CmsProject\obj\Debug\EnrollementStudentWizard.g.cs
+C:\Users\parinaz\Desktop\CmsProject\CmsProject\obj\Debug\MainWindow.g.cs
+C:\Users\parinaz\Desktop\CmsProject\CmsProject\obj\Debug\ReportDialog.g.cs
+C:\Users\parinaz\Desktop\CmsProject\CmsProject\obj\Debug\App.g.cs
+C:\Users\parinaz\Desktop\CmsProject\CmsProject\obj\Debug\CmsProject_Content.g.cs
+C:\Users\parinaz\Desktop\CmsProject\CmsProject\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\parinaz\Desktop\CmsProject\CmsProject\obj\Debug\CmsProject_MarkupCompile.cache
+C:\Users\parinaz\Desktop\CmsProject\CmsProject\obj\Debug\CmsProject_MarkupCompile.lref
+C:\Users\parinaz\Desktop\CmsProject\CmsProject\obj\Debug\CmsProject.exe
+C:\Users\parinaz\Desktop\CmsProject\CmsProject\obj\Debug\CmsProject.pdb
+C:\Users\parinaz\Desktop\CmsProject\CmsProject\bin\Debug\CmsProject.exe.config
+C:\Users\parinaz\Desktop\CmsProject\CmsProject\bin\Debug\CmsProject.exe
+C:\Users\parinaz\Desktop\CmsProject\CmsProject\bin\Debug\CmsProject.pdb
+C:\Users\parinaz\Desktop\CmsProject\CmsProject\bin\Debug\EntityFramework.dll
+C:\Users\parinaz\Desktop\CmsProject\CmsProject\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\parinaz\Desktop\CmsProject\CmsProject\bin\Debug\MaterialDesignColors.dll
+C:\Users\parinaz\Desktop\CmsProject\CmsProject\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\parinaz\Desktop\CmsProject\CmsProject\bin\Debug\EntityFramework.xml
+C:\Users\parinaz\Desktop\CmsProject\CmsProject\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\parinaz\Desktop\CmsProject\CmsProject\bin\Debug\MaterialDesignColors.pdb
+C:\Users\parinaz\Desktop\CmsProject\CmsProject\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\parinaz\Desktop\CmsProject\CmsProject\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\parinaz\Desktop\CmsProject\CmsProject\obj\Debug\CourseSectionDialog.baml
+C:\Users\parinaz\Desktop\CmsProject\CmsProject\obj\Debug\EnrollementSectionWizard.baml
+C:\Users\parinaz\Desktop\CmsProject\CmsProject\obj\Debug\EnrollementStudentWizard.baml
+C:\Users\parinaz\Desktop\CmsProject\CmsProject\obj\Debug\MainWindow.baml
+C:\Users\parinaz\Desktop\CmsProject\CmsProject\obj\Debug\ReportDialog.baml
+C:\Users\parinaz\Desktop\CmsProject\CmsProject\obj\Debug\CmsProject.g.resources
+C:\Users\parinaz\Desktop\CmsProject\CmsProject\obj\Debug\CmsProject.Properties.Resources.resources
+C:\Users\parinaz\Desktop\CmsProject\CmsProject\obj\Debug\CmsProject.csproj.GenerateResource.cache
+C:\Users\parinaz\Desktop\CmsProject\CmsProject\obj\Debug\CmsProject.csproj.CoreCompileInputs.cache
+C:\Users\parinaz\Desktop\CmsProject\CmsProject\obj\Debug\CmsProject.csproj.CopyComplete
+C:\Users\parinaz\Desktop\CmsProject\CmsProject\obj\Debug\UserControlHome.g.cs
+C:\Users\parinaz\Desktop\CmsProject\CmsProject\obj\Debug\UserControlHome.baml
+C:\Users\parinaz\Desktop\CmsProject\CmsProject\obj\Debug\CmsProject.csprojAssemblyReference.cache
+C:\Users\parinaz\Desktop\CmsProject\CmsProject\obj\Debug\UserControlStudent.g.cs
+C:\Users\parinaz\Desktop\CmsProject\CmsProject\obj\Debug\UserControlStudent.baml
+C:\Users\parinaz\Desktop\CmsProject\CmsProject\obj\Debug\UserControlTeacher.g.cs
+C:\Users\parinaz\Desktop\CmsProject\CmsProject\obj\Debug\UserControlTeacher.baml
+C:\Users\parinaz\Desktop\CmsProject\CmsProject\obj\Debug\UserControlCourse.g.cs
+C:\Users\parinaz\Desktop\CmsProject\CmsProject\obj\Debug\UserControlCourse.baml
+C:\Users\parinaz\Desktop\CmsProject\CmsProject\obj\Debug\UserControlEnrollment.g.cs
+C:\Users\parinaz\Desktop\CmsProject\CmsProject\obj\Debug\UserControlEnrollment.baml
+C:\Users\parinaz\Desktop\CmsProject\CmsProject\obj\Debug\UserControlGrade.g.cs
+C:\Users\parinaz\Desktop\CmsProject\CmsProject\obj\Debug\UserControlGrade.baml
+C:\Users\parinaz\Desktop\CmsProject\CmsProject\obj\Debug\UserControlReport.g.cs
+C:\Users\parinaz\Desktop\CmsProject\CmsProject\obj\Debug\UserControlReport.baml
+C:\Users\parinaz\Documents\CmsProject\CmsProject\bin\Debug\CmsProject.exe.config
+C:\Users\parinaz\Documents\CmsProject\CmsProject\bin\Debug\CmsProject.exe
+C:\Users\parinaz\Documents\CmsProject\CmsProject\bin\Debug\CmsProject.pdb
+C:\Users\parinaz\Documents\CmsProject\CmsProject\bin\Debug\CsvHelper.dll
+C:\Users\parinaz\Documents\CmsProject\CmsProject\bin\Debug\EntityFramework.dll
+C:\Users\parinaz\Documents\CmsProject\CmsProject\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\parinaz\Documents\CmsProject\CmsProject\bin\Debug\MaterialDesignColors.dll
+C:\Users\parinaz\Documents\CmsProject\CmsProject\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\parinaz\Documents\CmsProject\CmsProject\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\parinaz\Documents\CmsProject\CmsProject\bin\Debug\Microsoft.Bcl.HashCode.dll
+C:\Users\parinaz\Documents\CmsProject\CmsProject\bin\Debug\Microsoft.DirectX.AudioVideoPlayback.dll
+C:\Users\parinaz\Documents\CmsProject\CmsProject\bin\Debug\Microsoft.DirectX.Diagnostics.dll
+C:\Users\parinaz\Documents\CmsProject\CmsProject\bin\Debug\Microsoft.DirectX.Direct3D.dll
+C:\Users\parinaz\Documents\CmsProject\CmsProject\bin\Debug\Microsoft.DirectX.Direct3DX.dll
+C:\Users\parinaz\Documents\CmsProject\CmsProject\bin\Debug\Microsoft.DirectX.DirectDraw.dll
+C:\Users\parinaz\Documents\CmsProject\CmsProject\bin\Debug\Microsoft.DirectX.DirectInput.dll
+C:\Users\parinaz\Documents\CmsProject\CmsProject\bin\Debug\Microsoft.DirectX.DirectPlay.dll
+C:\Users\parinaz\Documents\CmsProject\CmsProject\bin\Debug\Microsoft.DirectX.DirectSound.dll
+C:\Users\parinaz\Documents\CmsProject\CmsProject\bin\Debug\Microsoft.DirectX.dll
+C:\Users\parinaz\Documents\CmsProject\CmsProject\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\parinaz\Documents\CmsProject\CmsProject\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\parinaz\Documents\CmsProject\CmsProject\bin\Debug\WebCam_Capture.dll
+C:\Users\parinaz\Documents\CmsProject\CmsProject\bin\Debug\CsvHelper.xml
+C:\Users\parinaz\Documents\CmsProject\CmsProject\bin\Debug\EntityFramework.xml
+C:\Users\parinaz\Documents\CmsProject\CmsProject\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\parinaz\Documents\CmsProject\CmsProject\bin\Debug\MaterialDesignColors.pdb
+C:\Users\parinaz\Documents\CmsProject\CmsProject\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\parinaz\Documents\CmsProject\CmsProject\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\parinaz\Documents\CmsProject\CmsProject\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\parinaz\Documents\CmsProject\CmsProject\bin\Debug\Microsoft.Bcl.HashCode.xml
+C:\Users\parinaz\Documents\CmsProject\CmsProject\bin\Debug\Microsoft.DirectX.xml
+C:\Users\parinaz\Documents\CmsProject\CmsProject\bin\Debug\Microsoft.DirectX.AudioVideoPlayback.xml
+C:\Users\parinaz\Documents\CmsProject\CmsProject\bin\Debug\Microsoft.DirectX.Diagnostics.xml
+C:\Users\parinaz\Documents\CmsProject\CmsProject\bin\Debug\Microsoft.DirectX.Direct3D.xml
+C:\Users\parinaz\Documents\CmsProject\CmsProject\bin\Debug\Microsoft.DirectX.Direct3DX.xml
+C:\Users\parinaz\Documents\CmsProject\CmsProject\bin\Debug\Microsoft.DirectX.DirectDraw.xml
+C:\Users\parinaz\Documents\CmsProject\CmsProject\bin\Debug\Microsoft.DirectX.DirectInput.xml
+C:\Users\parinaz\Documents\CmsProject\CmsProject\bin\Debug\Microsoft.DirectX.DirectPlay.xml
+C:\Users\parinaz\Documents\CmsProject\CmsProject\bin\Debug\Microsoft.DirectX.DirectSound.xml
+C:\Users\parinaz\Documents\CmsProject\CmsProject\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\parinaz\Documents\CmsProject\CmsProject\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\parinaz\Documents\CmsProject\CmsProject\obj\Debug\GradeReportDialog.baml
+C:\Users\parinaz\Documents\CmsProject\CmsProject\obj\Debug\UserControlClock.baml
+C:\Users\parinaz\Documents\CmsProject\CmsProject\obj\Debug\UserControlReport.baml
+C:\Users\parinaz\Documents\CmsProject\CmsProject\obj\Debug\UserControlHome.baml
+C:\Users\parinaz\Documents\CmsProject\CmsProject\obj\Debug\GradeReportDialog.g.cs
+C:\Users\parinaz\Documents\CmsProject\CmsProject\obj\Debug\StudentIdCardDialog.g.cs
+C:\Users\parinaz\Documents\CmsProject\CmsProject\obj\Debug\CourseSectionDialog.g.cs
+C:\Users\parinaz\Documents\CmsProject\CmsProject\obj\Debug\EnrollementWizard.g.cs
+C:\Users\parinaz\Documents\CmsProject\CmsProject\obj\Debug\StudentReportDialog.g.cs
+C:\Users\parinaz\Documents\CmsProject\CmsProject\obj\Debug\UserControlAttendance.g.cs
+C:\Users\parinaz\Documents\CmsProject\CmsProject\obj\Debug\UserControlClock.g.cs
+C:\Users\parinaz\Documents\CmsProject\CmsProject\obj\Debug\UserControlCourse.g.cs
+C:\Users\parinaz\Documents\CmsProject\CmsProject\obj\Debug\UserControlEnrollment.g.cs
+C:\Users\parinaz\Documents\CmsProject\CmsProject\obj\Debug\UserControlGrade.g.cs
+C:\Users\parinaz\Documents\CmsProject\CmsProject\obj\Debug\UserControlReport.g.cs
+C:\Users\parinaz\Documents\CmsProject\CmsProject\obj\Debug\UserControlTeacher.g.cs
+C:\Users\parinaz\Documents\CmsProject\CmsProject\obj\Debug\UserControlHome.g.cs
+C:\Users\parinaz\Documents\CmsProject\CmsProject\obj\Debug\MainWindow.g.cs
+C:\Users\parinaz\Documents\CmsProject\CmsProject\obj\Debug\UserControlStudent.g.cs
+C:\Users\parinaz\Documents\CmsProject\CmsProject\obj\Debug\App.g.cs
+C:\Users\parinaz\Documents\CmsProject\CmsProject\obj\Debug\CmsProject_Content.g.cs
+C:\Users\parinaz\Documents\CmsProject\CmsProject\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\parinaz\Documents\CmsProject\CmsProject\obj\Debug\CmsProject_MarkupCompile.cache
+C:\Users\parinaz\Documents\CmsProject\CmsProject\obj\Debug\CmsProject_MarkupCompile.lref
+C:\Users\parinaz\Documents\CmsProject\CmsProject\obj\Debug\StudentIdCardDialog.baml
+C:\Users\parinaz\Documents\CmsProject\CmsProject\obj\Debug\CourseSectionDialog.baml
+C:\Users\parinaz\Documents\CmsProject\CmsProject\obj\Debug\EnrollementWizard.baml
+C:\Users\parinaz\Documents\CmsProject\CmsProject\obj\Debug\StudentReportDialog.baml
+C:\Users\parinaz\Documents\CmsProject\CmsProject\obj\Debug\UserControlAttendance.baml
+C:\Users\parinaz\Documents\CmsProject\CmsProject\obj\Debug\UserControlCourse.baml
+C:\Users\parinaz\Documents\CmsProject\CmsProject\obj\Debug\UserControlEnrollment.baml
+C:\Users\parinaz\Documents\CmsProject\CmsProject\obj\Debug\UserControlGrade.baml
+C:\Users\parinaz\Documents\CmsProject\CmsProject\obj\Debug\UserControlTeacher.baml
+C:\Users\parinaz\Documents\CmsProject\CmsProject\obj\Debug\MainWindow.baml
+C:\Users\parinaz\Documents\CmsProject\CmsProject\obj\Debug\UserControlStudent.baml
+C:\Users\parinaz\Documents\CmsProject\CmsProject\obj\Debug\CmsProject.g.resources
+C:\Users\parinaz\Documents\CmsProject\CmsProject\obj\Debug\CmsProject.Properties.Resources.resources
+C:\Users\parinaz\Documents\CmsProject\CmsProject\obj\Debug\CmsProject.csproj.GenerateResource.cache
+C:\Users\parinaz\Documents\CmsProject\CmsProject\obj\Debug\CmsProject.csproj.CoreCompileInputs.cache
+C:\Users\parinaz\Documents\CmsProject\CmsProject\obj\Debug\CmsProject.csproj.CopyComplete
+C:\Users\parinaz\Documents\CmsProject\CmsProject\obj\Debug\CmsProject.exe
+C:\Users\parinaz\Documents\CmsProject\CmsProject\obj\Debug\CmsProject.pdb
+C:\Users\parinaz\Documents\CmsProject\CmsProject\bin\Debug\Castle.Core.dll
+C:\Users\parinaz\Documents\CmsProject\CmsProject\bin\Debug\Castle.Core.xml
+C:\Users\heshmat\Documents\cmsproject2\CmsProject\bin\Debug\CmsProject.exe.config
+C:\Users\heshmat\Documents\cmsproject2\CmsProject\bin\Debug\CmsProject.exe
+C:\Users\heshmat\Documents\cmsproject2\CmsProject\bin\Debug\CmsProject.pdb
+C:\Users\heshmat\Documents\cmsproject2\CmsProject\bin\Debug\Castle.Core.dll
+C:\Users\heshmat\Documents\cmsproject2\CmsProject\bin\Debug\CsvHelper.dll
+C:\Users\heshmat\Documents\cmsproject2\CmsProject\bin\Debug\EntityFramework.dll
+C:\Users\heshmat\Documents\cmsproject2\CmsProject\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\heshmat\Documents\cmsproject2\CmsProject\bin\Debug\MaterialDesignColors.dll
+C:\Users\heshmat\Documents\cmsproject2\CmsProject\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\heshmat\Documents\cmsproject2\CmsProject\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\heshmat\Documents\cmsproject2\CmsProject\bin\Debug\Microsoft.Bcl.HashCode.dll
+C:\Users\heshmat\Documents\cmsproject2\CmsProject\bin\Debug\Microsoft.DirectX.AudioVideoPlayback.dll
+C:\Users\heshmat\Documents\cmsproject2\CmsProject\bin\Debug\Microsoft.DirectX.Diagnostics.dll
+C:\Users\heshmat\Documents\cmsproject2\CmsProject\bin\Debug\Microsoft.DirectX.Direct3D.dll
+C:\Users\heshmat\Documents\cmsproject2\CmsProject\bin\Debug\Microsoft.DirectX.Direct3DX.dll
+C:\Users\heshmat\Documents\cmsproject2\CmsProject\bin\Debug\Microsoft.DirectX.DirectDraw.dll
+C:\Users\heshmat\Documents\cmsproject2\CmsProject\bin\Debug\Microsoft.DirectX.DirectInput.dll
+C:\Users\heshmat\Documents\cmsproject2\CmsProject\bin\Debug\Microsoft.DirectX.DirectPlay.dll
+C:\Users\heshmat\Documents\cmsproject2\CmsProject\bin\Debug\Microsoft.DirectX.DirectSound.dll
+C:\Users\heshmat\Documents\cmsproject2\CmsProject\bin\Debug\Microsoft.DirectX.dll
+C:\Users\heshmat\Documents\cmsproject2\CmsProject\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\heshmat\Documents\cmsproject2\CmsProject\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\heshmat\Documents\cmsproject2\CmsProject\bin\Debug\WebCam_Capture.dll
+C:\Users\heshmat\Documents\cmsproject2\CmsProject\bin\Debug\Castle.Core.xml
+C:\Users\heshmat\Documents\cmsproject2\CmsProject\bin\Debug\CsvHelper.xml
+C:\Users\heshmat\Documents\cmsproject2\CmsProject\bin\Debug\EntityFramework.xml
+C:\Users\heshmat\Documents\cmsproject2\CmsProject\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\heshmat\Documents\cmsproject2\CmsProject\bin\Debug\MaterialDesignColors.pdb
+C:\Users\heshmat\Documents\cmsproject2\CmsProject\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\heshmat\Documents\cmsproject2\CmsProject\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\heshmat\Documents\cmsproject2\CmsProject\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\heshmat\Documents\cmsproject2\CmsProject\bin\Debug\Microsoft.Bcl.HashCode.xml
+C:\Users\heshmat\Documents\cmsproject2\CmsProject\bin\Debug\Microsoft.DirectX.xml
+C:\Users\heshmat\Documents\cmsproject2\CmsProject\bin\Debug\Microsoft.DirectX.AudioVideoPlayback.xml
+C:\Users\heshmat\Documents\cmsproject2\CmsProject\bin\Debug\Microsoft.DirectX.Diagnostics.xml
+C:\Users\heshmat\Documents\cmsproject2\CmsProject\bin\Debug\Microsoft.DirectX.Direct3D.xml
+C:\Users\heshmat\Documents\cmsproject2\CmsProject\bin\Debug\Microsoft.DirectX.Direct3DX.xml
+C:\Users\heshmat\Documents\cmsproject2\CmsProject\bin\Debug\Microsoft.DirectX.DirectDraw.xml
+C:\Users\heshmat\Documents\cmsproject2\CmsProject\bin\Debug\Microsoft.DirectX.DirectInput.xml
+C:\Users\heshmat\Documents\cmsproject2\CmsProject\bin\Debug\Microsoft.DirectX.DirectPlay.xml
+C:\Users\heshmat\Documents\cmsproject2\CmsProject\bin\Debug\Microsoft.DirectX.DirectSound.xml
+C:\Users\heshmat\Documents\cmsproject2\CmsProject\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\heshmat\Documents\cmsproject2\CmsProject\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\heshmat\Documents\cmsproject2\CmsProject\obj\Debug\CmsProject.csprojAssemblyReference.cache
+C:\Users\heshmat\Documents\cmsproject2\CmsProject\obj\Debug\GradeReportDialog.baml
+C:\Users\heshmat\Documents\cmsproject2\CmsProject\obj\Debug\UserControlClock.baml
+C:\Users\heshmat\Documents\cmsproject2\CmsProject\obj\Debug\UserControlReport.baml
+C:\Users\heshmat\Documents\cmsproject2\CmsProject\obj\Debug\UserControlHome.baml
+C:\Users\heshmat\Documents\cmsproject2\CmsProject\obj\Debug\GradeReportDialog.g.cs
+C:\Users\heshmat\Documents\cmsproject2\CmsProject\obj\Debug\StudentIdCardDialog.g.cs
+C:\Users\heshmat\Documents\cmsproject2\CmsProject\obj\Debug\CourseSectionDialog.g.cs
+C:\Users\heshmat\Documents\cmsproject2\CmsProject\obj\Debug\EnrollementWizard.g.cs
+C:\Users\heshmat\Documents\cmsproject2\CmsProject\obj\Debug\StudentReportDialog.g.cs
+C:\Users\heshmat\Documents\cmsproject2\CmsProject\obj\Debug\UserControlAttendance.g.cs
+C:\Users\heshmat\Documents\cmsproject2\CmsProject\obj\Debug\UserControlClock.g.cs
+C:\Users\heshmat\Documents\cmsproject2\CmsProject\obj\Debug\UserControlCourse.g.cs
+C:\Users\heshmat\Documents\cmsproject2\CmsProject\obj\Debug\UserControlEnrollment.g.cs
+C:\Users\heshmat\Documents\cmsproject2\CmsProject\obj\Debug\UserControlGrade.g.cs
+C:\Users\heshmat\Documents\cmsproject2\CmsProject\obj\Debug\UserControlReport.g.cs
+C:\Users\heshmat\Documents\cmsproject2\CmsProject\obj\Debug\UserControlTeacher.g.cs
+C:\Users\heshmat\Documents\cmsproject2\CmsProject\obj\Debug\UserControlHome.g.cs
+C:\Users\heshmat\Documents\cmsproject2\CmsProject\obj\Debug\MainWindow.g.cs
+C:\Users\heshmat\Documents\cmsproject2\CmsProject\obj\Debug\UserControlStudent.g.cs
+C:\Users\heshmat\Documents\cmsproject2\CmsProject\obj\Debug\App.g.cs
+C:\Users\heshmat\Documents\cmsproject2\CmsProject\obj\Debug\CmsProject_Content.g.cs
+C:\Users\heshmat\Documents\cmsproject2\CmsProject\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\heshmat\Documents\cmsproject2\CmsProject\obj\Debug\CmsProject_MarkupCompile.cache
+C:\Users\heshmat\Documents\cmsproject2\CmsProject\obj\Debug\CmsProject_MarkupCompile.lref
+C:\Users\heshmat\Documents\cmsproject2\CmsProject\obj\Debug\StudentIdCardDialog.baml
+C:\Users\heshmat\Documents\cmsproject2\CmsProject\obj\Debug\CourseSectionDialog.baml
+C:\Users\heshmat\Documents\cmsproject2\CmsProject\obj\Debug\EnrollementWizard.baml
+C:\Users\heshmat\Documents\cmsproject2\CmsProject\obj\Debug\StudentReportDialog.baml
+C:\Users\heshmat\Documents\cmsproject2\CmsProject\obj\Debug\UserControlAttendance.baml
+C:\Users\heshmat\Documents\cmsproject2\CmsProject\obj\Debug\UserControlCourse.baml
+C:\Users\heshmat\Documents\cmsproject2\CmsProject\obj\Debug\UserControlEnrollment.baml
+C:\Users\heshmat\Documents\cmsproject2\CmsProject\obj\Debug\UserControlGrade.baml
+C:\Users\heshmat\Documents\cmsproject2\CmsProject\obj\Debug\UserControlTeacher.baml
+C:\Users\heshmat\Documents\cmsproject2\CmsProject\obj\Debug\MainWindow.baml
+C:\Users\heshmat\Documents\cmsproject2\CmsProject\obj\Debug\UserControlStudent.baml
+C:\Users\heshmat\Documents\cmsproject2\CmsProject\obj\Debug\CmsProject.g.resources
+C:\Users\heshmat\Documents\cmsproject2\CmsProject\obj\Debug\CmsProject.Properties.Resources.resources
+C:\Users\heshmat\Documents\cmsproject2\CmsProject\obj\Debug\CmsProject.csproj.GenerateResource.cache
+C:\Users\heshmat\Documents\cmsproject2\CmsProject\obj\Debug\CmsProject.csproj.CoreCompileInputs.cache
+C:\Users\heshmat\Documents\cmsproject2\CmsProject\obj\Debug\CmsProject.csproj.CopyComplete
+C:\Users\heshmat\Documents\cmsproject2\CmsProject\obj\Debug\CmsProject.exe
+C:\Users\heshmat\Documents\cmsproject2\CmsProject\obj\Debug\CmsProject.pdb

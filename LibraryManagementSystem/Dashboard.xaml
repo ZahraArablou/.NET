@@ -1,0 +1,75 @@
+﻿<Window x:Class="LibraryManagementSystem.Dashboard"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LibraryManagementSystem"
+        mc:Ignorable="d"
+        Title="Dashboard" Height="600" Width="1154.795" AllowsTransparency="True" WindowStyle="None" WindowState="Maximized">
+    <Window.Background>
+        <ImageBrush ImageSource="Image/library.jpg"></ImageBrush>
+    </Window.Background>
+    <Grid>
+        <Menu x:Name="menu1" HorizontalAlignment="Left" Height="87" VerticalAlignment="Top" Margin="0,29,-245,0" Width="1400" Background="Wheat" >
+            <MenuItem Header="Books" Width="190" Height="96" FontSize="16" FontWeight="Bold" FontFamily="Calibri"  >
+                <MenuItem.Icon>
+                    <Image Source="Image/icons8-books-50.png" />
+                </MenuItem.Icon>
+                <MenuItem Header="Add New Books" Name="itemAddBook" Click="itemAddBook_Click" >
+                    <MenuItem.Icon>
+                        <Image Source="Image/icons8-add-book-48.png"></Image>
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem  Name="miViewBook" Header="View Books" Click="miViewBook_Click" >
+                    <MenuItem.Icon>
+                        <Image Source="Image/icons8-view-50.png"></Image>
+                    </MenuItem.Icon>
+                </MenuItem>
+            </MenuItem>
+            <MenuItem Header="Student" Width="186" Click="MenuItem_Click" Background="OldLace" FontSize="16" FontWeight="Bold" FontFamily="Calibri">
+                <MenuItem.Icon>
+                    <Image Source="Image/icons8-student-male-100.png"></Image>
+                </MenuItem.Icon>
+                <MenuItem Name="miAddStudent" Header="Add Student" Click="miAddStudent_Click" >
+                    <MenuItem.Icon>
+                        <Image Source="Image/icons8-add-user-male-50.png"></Image>
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem Name="miViewStudent" Header="View Student Info" Click="miViewStudent_Click" >
+                    <MenuItem.Icon>
+                        <Image Source="Image/icons8-view-50.png"></Image>
+                    </MenuItem.Icon>
+                </MenuItem>
+            </MenuItem>
+            <MenuItem Name="miIssueBooks" Header="Issue Books" Width="193" Click="miIssueBooks_Click" FontSize="16" FontWeight="Bold" FontFamily="Calibri" >
+                <MenuItem.Icon>
+                    <Image Source="Image/icons8-book-philosophy-50.png"></Image>
+                </MenuItem.Icon>
+            </MenuItem>
+            <MenuItem Name="miReturnBook" Header="Return Books" Width="208" Background="OldLace" Click="miReturnBook_Click" FontSize="16" FontWeight="Bold" FontFamily="Calibri">
+                <MenuItem.Icon>
+                    <Image Source="Image/icons8-return-book-64.png"></Image>
+                </MenuItem.Icon>
+            </MenuItem>
+            <MenuItem Name="mibookDetail" Header="Complete Books Detail" Width="274" Click="mibookDetail_Click" FontSize="16" FontWeight="Bold" FontFamily="Calibri" >
+                <MenuItem.Icon>
+                    <Image Source="Image/icons8-books-50.png"></Image>
+                </MenuItem.Icon>
+
+            </MenuItem>
+            <MenuItem Header="Exit" Width="326" Background="OldLace" Click="MenuItem_Click_1" FontSize="16" FontWeight="Bold" FontFamily="Calibri">
+                <MenuItem.Icon>
+                    <Image Source="Image/icons8-exit-sign-50.png"></Image>
+                </MenuItem.Icon>
+            </MenuItem>
+        </Menu>
+
+
+
+
+
+
+
+
+    </Grid>
+</Window>

@@ -1,0 +1,360 @@
+DAILY SCRUM
+
+sql db host : cmsprojectserver.database.windows.net
+user: sqladmin
+password:123!@#qwe
+
+
+2020-12-18 Zahra Arablou
+1-Done
+-Discussed to choose a Project
+-Designed Database Tables
+-Desined User Interfaces
+-Created Tables in SSMS
+2-To Do
+-Modify User Interface and add some wizard
+-Finalize the proposal
+-Create 10 Cards in the backlog in Trello 
+3- need assistance
+---
+2020-12-18 Parinaz MalekTabrizi
+1-Done
+-Discussed to choose a Project
+-Designed Database Tables
+-Modified User Interfaces
+-Created a table in SSMS
+2-To Do
+-Redesign database and tables
+-Finalize the proposal
+-Create 10 Cards in the backlog in Trello 
+3- need assistance
+---
+---------------------------------------------
+2020-12-21 Parinaz MalekTabrizi
+1-Done
+-Redesign database and tables
+-Finalize the proposal
+-Create more than 10 Cards in the backlog in Trello 
+-Create a user Control for fixing menu
+-Add, Update, Delete and display Student info
+-Add a Sorting class for assigning sort through columns in grid view
+2-To Do
+-Complete Students
+3- need assistance
+---
+2020-12-21 Zahra Arablou
+1-Done
+-Redesign database and tables
+-Finalize the proposal
+-Create more than 10 Cards in the backlog in Trello 
+-Add, Update, Delete and display Teacher info
+-Assign Course to section
+2-To Do
+-Changing some part of Sections
+3- need assistance
+---
+---------------------------------------------
+ 2020-12-22 Parinaz MalekTabrizi
+1-Done
+-Complete Students
+2-To Do
+- fix the conflict merge errors
+3- need assistance
+---
+2020-12-22 Zahra Arablou
+1-Done
+-Changing some part of Sections , Add , Update, remove and display course
+
+2-To Do
+- fix the conflict merge errors
+
+3- need assistance
+- problem in source tree pulling and committ
+- resizing window
+---------------------------------------------
+2020-12-23 Parinaz MalekTabrizi
+1-Done
+-fix the conflict merge errors
+
+2-To Do
+- Change Design 
+- Complete Enrollment part
+- research about report part
+
+3- need assistance
+-------
+
+2020-12-23 Zahra Arablou
+1-Done
+-Changing some part of Sections , Add , Update, remove and display course
+
+2-To Do
+1-Compelet Section
+2-test Student 
+3-research for database first approch
+4-research for generating reports
+
+3- need assistance
+- problem in source tree pulling and committ
+- consultation in database design
+
+------------------------------------------------
+2020-12-25 Parinaz MalekTabrizi
+1-Done
+-Change Design 
+-test Teacher
+
+2-To Do
+- Student EF Validation
+- Complete Enrollment part
+- research about report part
+
+3- need assistance
+-------
+
+2020-12-25 Zahra Arablou
+1-Done
+-Compelet Section
+-test Student 
+-research for database first approch
+
+2-To Do
+1-Add listView to Section
+2-Fix Teacher Validation based on EF Validation
+
+3- need assistance
+- problem in source tree pulling and committ
+- consultation in database design
+
+------------------------------------------------
+
+2021-01-04 Parinaz MalekTabrizi
+1-Done
+- Student Validation Added
+- Enrollment part is completed
+- Course is tested
+- Did some part of assigning grades
+
+2-To Do
+- Complete the grade part
+
+3- need assistance
+-------
+
+2021-01-04 Zahra Arablou
+1-Done
+- Student is tested
+- Section part is completed
+- did some improvement in Teacher
+
+2-To Do
+- Do Attendance part
+
+3- need assistance
+-------
+
+------------------------------------------------
+
+2021-01-07 Parinaz MalekTabrizi
+1-Done
+- added UserControl Clock 
+- updated enrollment part
+- updated student part
+- tested Couse - section - attendance
+- updated design of some part of app
+
+2-To Do
+- Complete the grade part
+
+3- need assistance
+-------
+
+2021-01-07 Zahra Arablou
+1-Done
+- tested enrollment wizard and UserControl Clock 
+- Updated section part
+- Updated attendance part
+
+2-To Do
+- Complete attendance part
+
+3- need assistance
+-------
+
+------------------------------------------------
+
+2021-01-08 Parinaz MalekTabrizi
+1-Done
+- Updated Enrollment and Improved some part of that
+- Work on EF Validation
+
+2-To Do
+- Work on EF Validation
+
+3- need assistance
+-------
+
+2021-01-08 Zahra Arablou
+1-Done
+- Updated Attendance and Improved some part of that
+
+2-To Do
+- Work on EF Validation
+
+3- need assistance
+-------
+
+------------------------------------------------
+
+2021-01-11 Parinaz MalekTabrizi
+1-Done
+- Changed all enrollment to one wizard
+
+2-To Do
+- work on report (student card)
+
+3- need assistance
+-------
+
+2021-01-11 Zahra Arablou
+1-Done
+- Added Camera feature
+- Updated Section and attendance
+
+2-To Do
+- work on report
+
+3- need assistance
+-------
+
+
+------------------------------------------------
+
+2021-01-12 Parinaz MalekTabrizi
+1-Done
+- Completed Student Id Card
+
+2-To Do
+- work on validation datagrid
+
+3- need assistance
+-------
+
+2021-01-12 Zahra Arablou
+1-Done
+- completed student report
+
+2-To Do
+- work on report window
+
+3- need assistance
+-------
+
+------------------------------------------------
+
+2021-01-13 Parinaz MalekTabrizi
+1-Done
+- Did iValidation in datagrid
+
+2-To Do
+- work on Grade report
+
+3- need assistance
+-------
+
+2021-01-13 Zahra Arablou
+1-Done
+-  worked on report window
+
+2-To Do
+- work on Unit test
+- work on report window
+
+3- need assistance
+-------
+
+------------------------------------------------
+
+2021-01-14 Parinaz MalekTabrizi
+1-Done
+- Completed Grade report
+
+2-To Do
+- work Unit test
+
+3- need assistance
+-------
+
+2021-01-14 Zahra Arablou
+1-Done
+-  worked on Student report window
+
+2-To Do
+- work on Unit test
+- work on report window
+
+3- need assistance
+-------
+------------------------------------------------
+2021-01-15 Parinaz MalekTabrizi
+1-Done
+- worked Unit test
+
+2-To Do
+- work Unit test
+
+3- need assistance
+-------
+
+2021-01-15 Zahra Arablou
+1-Done
+- worked on Student report window
+- worked on Unit test
+
+2-To Do
+- work on Unit test
+- work on report window
+
+3- need assistance
+-------
+2021-01-17 Parinaz MalekTabrizi
+1-Done
+- wrote 2 Unit test
+- completed our presentation
+
+2-To Do
+- 
+
+3- need assistance
+-------
+
+2021-01-17 Zahra Arablou
+1-Done
+- completed Student report window
+- completed our presentation
+
+2-To Do
+- 
+
+3- need assistance
+-------
+--------------------------------------------
+2021-01-18 Parinaz MalekTabrizi
+1-Done
+- Installer added to our project
+
+2-To Do
+- 
+
+3- need assistance
+-------
+
+2021-01-18 Zahra Arablou
+1-Done
+- modified the presentation
+
+2-To Do
+- 
+
+3- need assistance
+-------

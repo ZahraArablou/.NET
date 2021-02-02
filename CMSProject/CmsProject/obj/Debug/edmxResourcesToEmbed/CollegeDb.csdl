@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="CmsProjectModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="cmsprojectDbConnection" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Courses" EntityType="CmsProjectModel.Course" />
+    <EntitySet Name="Sections" EntityType="CmsProjectModel.Section" />
+    <EntitySet Name="Students" EntityType="CmsProjectModel.Student" />
+    <EntitySet Name="Teachers" EntityType="CmsProjectModel.Teacher" />
+    <AssociationSet Name="FK__Section__CourseI__6E01572D" Association="CmsProjectModel.FK__Section__CourseI__6E01572D">
+      <End Role="Course" EntitySet="Courses" />
+      <End Role="Section" EntitySet="Sections" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Section__Teacher__6EF57B66" Association="CmsProjectModel.FK__Section__Teacher__6EF57B66">
+      <End Role="Teacher" EntitySet="Teachers" />
+      <End Role="Section" EntitySet="Sections" />
+    </AssociationSet>
+    <EntitySet Name="Enrollments" EntityType="CmsProjectModel.Enrollment" />
+    <AssociationSet Name="FK__Enrollmen__Secti__6FE99F9F" Association="CmsProjectModel.FK__Enrollmen__Secti__6FE99F9F">
+      <End Role="Section" EntitySet="Sections" />
+      <End Role="Enrollment" EntitySet="Enrollments" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Enrollmen__Stude__70DDC3D8" Association="CmsProjectModel.FK__Enrollmen__Stude__70DDC3D8">
+      <End Role="Student" EntitySet="Students" />
+      <End Role="Enrollment" EntitySet="Enrollments" />
+    </AssociationSet>
+    <EntitySet Name="Attendances" EntityType="CmsProjectModel.Attendance" />
+    <AssociationSet Name="FK__Attendanc__Secti__71D1E811" Association="CmsProjectModel.FK__Attendanc__Secti__71D1E811">
+      <End Role="Section" EntitySet="Sections" />
+      <End Role="Attendance" EntitySet="Attendances" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Attendanc__Stude__72C60C4A" Association="CmsProjectModel.FK__Attendanc__Stude__72C60C4A">
+      <End Role="Student" EntitySet="Students" />
+      <End Role="Attendance" EntitySet="Attendances" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Course">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CourseTitle" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Description" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Sections" Relationship="CmsProjectModel.FK__Section__CourseI__6E01572D" FromRole="Course" ToRole="Section" />
+  </EntityType>
+  <EntityType Name="Section">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Day" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="StartDate" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="EndDate" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Room" Type="Int32" Nullable="false" />
+    <Property Name="CourseId" Type="Int32" Nullable="false" />
+    <Property Name="TeacherId" Type="Int32" Nullable="false" />
+    <Property Name="StartTime" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="EndTime" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Course" Relationship="CmsProjectModel.FK__Section__CourseI__6E01572D" FromRole="Section" ToRole="Course" />
+    <NavigationProperty Name="Teacher" Relationship="CmsProjectModel.FK__Section__Teacher__6EF57B66" FromRole="Section" ToRole="Teacher" />
+    <NavigationProperty Name="Enrollments" Relationship="CmsProjectModel.FK__Enrollmen__Secti__6FE99F9F" FromRole="Section" ToRole="Enrollment" />
+    <NavigationProperty Name="Attendances" Relationship="CmsProjectModel.FK__Attendanc__Secti__71D1E811" FromRole="Section" ToRole="Attendance" />
+  </EntityType>
+  <EntityType Name="Student">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FirstName" Type="String" Nullable="false" MaxLength="25" FixedLength="false" Unicode="true" />
+    <Property Name="LastName" Type="String" Nullable="false" MaxLength="25" FixedLength="false" Unicode="true" />
+    <Property Name="Phone" Type="String" Nullable="false" MaxLength="14" FixedLength="false" Unicode="true" />
+    <Property Name="Email" Type="String" Nullable="false" MaxLength="25" FixedLength="false" Unicode="true" />
+    <Property Name="Photo" Type="Binary" Nullable="false" MaxLength="Max" FixedLength="false" />
+    <Property Name="Province" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="City" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="Street" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="No" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="CodePostal" Type="String" Nullable="false" MaxLength="12" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Enrollments" Relationship="CmsProjectModel.FK__Enrollmen__Stude__70DDC3D8" FromRole="Student" ToRole="Enrollment" />
+    <NavigationProperty Name="Attendances" Relationship="CmsProjectModel.FK__Attendanc__Stude__72C60C4A" FromRole="Student" ToRole="Attendance" />
+  </EntityType>
+  <EntityType Name="Teacher">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FirstName" Type="String" Nullable="false" MaxLength="30" FixedLength="false" Unicode="true" />
+    <Property Name="LastName" Type="String" Nullable="false" MaxLength="30" FixedLength="false" Unicode="true" />
+    <Property Name="Phone" Type="String" Nullable="false" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="Email" Type="String" Nullable="false" MaxLength="30" FixedLength="false" Unicode="true" />
+    <Property Name="HireDate" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Province" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="City" Type="String" Nullable="false" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="Street" Type="String" Nullable="false" MaxLength="30" FixedLength="false" Unicode="true" />
+    <Property Name="No" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="CodePostal" Type="String" Nullable="false" MaxLength="12" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Sections" Relationship="CmsProjectModel.FK__Section__Teacher__6EF57B66" FromRole="Teacher" ToRole="Section" />
+  </EntityType>
+  <Association Name="FK__Section__CourseI__6E01572D">
+    <End Type="CmsProjectModel.Course" Role="Course" Multiplicity="1" />
+    <End Type="CmsProjectModel.Section" Role="Section" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Course">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Section">
+        <PropertyRef Name="CourseId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Section__Teacher__6EF57B66">
+    <End Type="CmsProjectModel.Teacher" Role="Teacher" Multiplicity="1" />
+    <End Type="CmsProjectModel.Section" Role="Section" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Teacher">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Section">
+        <PropertyRef Name="TeacherId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="Enrollment">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="StudentId" Type="Int32" Nullable="false" />
+    <Property Name="SectionId" Type="Int32" Nullable="false" />
+    <Property Name="DateEnrolled" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="FinalGrade" Type="Double" />
+    <NavigationProperty Name="Section" Relationship="CmsProjectModel.FK__Enrollmen__Secti__6FE99F9F" FromRole="Enrollment" ToRole="Section" />
+    <NavigationProperty Name="Student" Relationship="CmsProjectModel.FK__Enrollmen__Stude__70DDC3D8" FromRole="Enrollment" ToRole="Student" />
+  </EntityType>
+  <Association Name="FK__Enrollmen__Secti__6FE99F9F">
+    <End Type="CmsProjectModel.Section" Role="Section" Multiplicity="1" />
+    <End Type="CmsProjectModel.Enrollment" Role="Enrollment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Section">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Enrollment">
+        <PropertyRef Name="SectionId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Enrollmen__Stude__70DDC3D8">
+    <End Type="CmsProjectModel.Student" Role="Student" Multiplicity="1" />
+    <End Type="CmsProjectModel.Enrollment" Role="Enrollment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Student">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Enrollment">
+        <PropertyRef Name="StudentId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="Attendance">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="StudentId" Type="Int32" Nullable="false" />
+    <Property Name="SectionId" Type="Int32" Nullable="false" />
+    <Property Name="DateAttended" Type="DateTime" Precision="0" />
+    <Property Name="IsAttend" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
+    <NavigationProperty Name="Section" Relationship="CmsProjectModel.FK__Attendanc__Secti__71D1E811" FromRole="Attendance" ToRole="Section" />
+    <NavigationProperty Name="Student" Relationship="CmsProjectModel.FK__Attendanc__Stude__72C60C4A" FromRole="Attendance" ToRole="Student" />
+  </EntityType>
+  <Association Name="FK__Attendanc__Secti__71D1E811">
+    <End Type="CmsProjectModel.Section" Role="Section" Multiplicity="1" />
+    <End Type="CmsProjectModel.Attendance" Role="Attendance" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Section">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Attendance">
+        <PropertyRef Name="SectionId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Attendanc__Stude__72C60C4A">
+    <End Type="CmsProjectModel.Student" Role="Student" Multiplicity="1" />
+    <End Type="CmsProjectModel.Attendance" Role="Attendance" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Student">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Attendance">
+        <PropertyRef Name="StudentId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

@@ -1,0 +1,294 @@
+ public int bId { get; set; } 
+        string bName { get; set; }
+        string bAuthor { get; set; }
+        string bPubl { get; set; }
+        DateTime bPDate { get; set; }
+        int bPrice { get; set; }
+        int bQuan { get; set; }
+
+
+<ListView x:Name="lvBooks" HorizontalAlignment="Left" Height="225" Margin="10,171,0,0" VerticalAlignment="Top" Width="756" Background="#FFD8CECE">
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn Header="Book Id" Width="auto" DisplayMemberBinding="{Binding bId }"/>
+                        <GridViewColumn Header="Book name" Width="auto" DisplayMemberBinding="{Binding bName }"/>
+                        <GridViewColumn Header="Author " Width="auto" DisplayMemberBinding="{Binding bAuthor  }"/>
+                        <GridViewColumn Header="Publication " Width="auto" DisplayMemberBinding="{Binding bPubl  }"/>
+                        <GridViewColumn Header="Publication Date " Width="auto" DisplayMemberBinding="{Binding bPDate, StringFormat=d}"/>
+                        <GridViewColumn Header="Price " Width="auto" DisplayMemberBinding="{Binding bPrice  }"/>
+                        <GridViewColumn Header="Quantity " Width="auto" DisplayMemberBinding="{Binding bQuan  }"/>
+
+                    </GridView>
+                </ListView.View>
+            </ListView>
+//*************
+data grid 
+
+
+                    <DataGridTextColumn Header="Book Id"  Binding="{Binding bId }"/>
+                    <DataGridTextColumn Header="Book name"  Binding="{Binding bName }"/>
+                    <DataGridTextColumn Header="Author " Binding="{Binding bAuthor  }"/>
+                    <DataGridTextColumn Header="Publication" Binding="{Binding bPubl  }"/>
+                    <DataGridTextColumn Header="Publication Date " Width="auto" Binding="{Binding bPDate, StringFormat=d}"/>
+                    <DataGridTextColumn Header="Price " Binding="{Binding bPrice  }"/>
+                    <DataGridTextColumn Header="Quantity " Binding="{Binding bQuan  }"/>
+
+
+          this.sId = SId;
+            SName = sName;
+            Enroll = enroll;
+            Dep = dep;
+            Sem = sem;
+            Contact = contact;
+            Email = email;
+
+ s.SName = tbSName.Text;
+            s.Enroll = tbSEnrollNo.Text;
+            s.Dep = tbDep.Text;
+            s.Sem = tbSSem.Text;
+            s.Contact = tbSContact.Text;
+            s.Email = tbSEmail.Text;
+////////////////////////////////////
+namespace LibraryManagementSystem
+{
+    /// <summary>
+    /// Interaction logic for ViewStudent.xaml
+    /// </summary>
+    public partial class ViewStudent : Window
+    {
+        List<Student> studentList = new List<Student>();
+        public ViewStudent()
+        {
+
+            try
+            {
+                Globals.db = new Database();
+            }
+            catch (SqlException ex)
+            {
+                MessageBox.Show("Fatal Error " + ex.Message);
+                Environment.Exit(1);
+            }
+            gridStudent.Visibility = Visibility.Hidden;
+            refreshList();
+            // gridlist.ItemsSource = studentList;
+        }
+
+        private void refreshList()
+        {
+            studentList.Clear();
+            studentList = Globals.db.GetAllStudents();
+            lvStudents.ItemsSource = studentList;
+        }
+        c
+
+        private void tbEnroll_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            //studentList.Clear();
+            //studentList = Globals.db.SearchStudent(tbSName.Text);
+            //lvstudents.ItemsSource = studentList;
+        }
+
+
+
+        private void btRefresh_Click(object sender, RoutedEventArgs e)
+        {
+            tbSearchEnrol.Clear();
+            refreshList();
+            gridStudent.Visibility = Visibility.Hidden;
+
+        }
+
+        private void lvStudents_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
+        private void btCancel_Click(object sender, RoutedEventArgs e)
+        {
+            gridStudent.Visibility = Visibility.Hidden;
+            //if (MessageBox.Show("Are you sure?", "confirmation", MessageBoxButton.YesNo, MessageBoxImage.Warning) == MessageBoxResult.Yes)
+            //{
+            //    this.Close();
+            //}
+        }
+
+
+
+
+        private void btUpdate_Click(object sender, RoutedEventArgs e)
+        {
+            //if (MessageBox.Show("Data will be updated.Confirm?", "Success", MessageBoxButton.OKCancel, MessageBoxImage.Question) == MessageBoxResult.OK)
+            //{
+            //    try
+            //    {
+            //        if (tbAuthor.Text == "" && tbName.Text == "" && tbPubl.Text == "" && tbPrice.Text == "" && tbQuan.Text == "")
+            //        {
+            //            throw new FormatException("Empty fileds NOT Allowed !");
+            //        }
+
+            //        var b = bookList[lvBooks.SelectedIndex];
+            //        int id = b.bId;
+            //        string bName = tbName.Text;
+            //        string bAuthor = tbAuthor.Text;
+            //        string bPubl = tbPubl.Text;
+            //        if (datePicker.SelectedDate == null)
+            //        {
+            //            MessageBox.Show("please enter a date");
+            //            return;
+            //        }
+            //        DateTime pubDate = (DateTime)datePicker.SelectedDate;
+            //        int price = Int32.Parse(tbPrice.Text);//TODO Exceptions
+            //        int quan = Int32.Parse(tbQuan.Text);//TODO Exceptions
+            //        Book book = new Book(id, bName, bAuthor, bPubl, pubDate, price, quan);
+            //        Globals.db.UpdateBook(book);
+            //        refreshList();
+            //        //  MessageBox.Show("Data Saved.", "Success", MessageBoxButton.OK, MessageBoxImage.Information);
+            //        clearFields();
+
+            //    }
+            //    catch (SqlException ex)
+            //    {
+            //        MessageBox.Show(ex.Message);
+            //    }
+            //    catch (FormatException ex)
+            //    {
+            //        MessageBox.Show(ex.Message);
+            //    }
+            //}
+        }
+        private void btDelete_Click(object sender, RoutedEventArgs e)
+        {
+            //Book b = (Book)lvBooks.SelectedItem;
+            //try
+            //{
+            //    if (MessageBox.Show("Data will be deleted. Confirm? ", " Deletion", MessageBoxButton.OKCancel, MessageBoxImage.Warning) == MessageBoxResult.OK)
+            //    {
+            //        Globals.db.DeleteBook(b.bId);
+            //        refreshList();
+            //        MessageBox.Show("Data Deleted.", "Success", MessageBoxButton.OK, MessageBoxImage.Information);
+            //        clearFields();
+
+            //    }
+
+            //}
+            //catch (SqlException ex)
+            //{
+            //    MessageBox.Show("Database Errot: " + ex.Message);
+            //}
+
+        }
+    }
+}
+//////////////////xaml
+
+
+<Window x:Class="LibraryManagementSystem.ViewStudent"
+       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LibraryManagementSystem"
+        mc:Ignorable="d"
+        Title="ViewBook" Height="656.754" Width="802.239" RenderSize="986,496" WindowStartupLocation="CenterScreen" Background="#ffc080" >
+    <ScrollViewer VerticalScrollBarVisibility="Auto">
+
+        <Grid Margin="0,0,-8,4">
+            <StackPanel Background="White" HorizontalAlignment="Left" Height="120" VerticalAlignment="Top" Width="792">
+            </StackPanel>
+            <Image Source="Image/search.gif" HorizontalAlignment="Left" Height="120" Margin="276,0,0,0" VerticalAlignment="Top" Width="170" Stretch="Fill"/>
+            <Label Content="View Students" HorizontalAlignment="Left" Margin="424,46,0,0" VerticalAlignment="Top" FontFamily="Calibri" FontSize="16" FontWeight="Bold" Foreground="#FF3B4EC9"/>
+            <Label Content="Enrollment No" HorizontalAlignment="Left" Margin="118,131,0,0" VerticalAlignment="Top" FontFamily="Calibri" FontSize="15" FontWeight="Bold" Width="169"/>
+            <TextBox x:Name="tbSearchEnrol" HorizontalAlignment="Left" Height="23" Margin="220,136,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="264" FontFamily="Calibri" TextChanged="tbEnroll_TextChanged"/>
+            <Button Name="btRefresh" Content="Refresh" HorizontalAlignment="Left" Margin="489,131,0,0" VerticalAlignment="Top" Width="95" RenderTransformOrigin="-0.222,1.006" FontFamily="Calibri" FontSize="15" FontWeight="Bold" Height="36" Click="btRefresh_Click"/>
+
+            <ListView x:Name="lvStudents" HorizontalAlignment="Left" Height="225" Margin="10,171,0,0" VerticalAlignment="Top" Width="756" Background="#FFFFFAE6" BorderBrush="#FF8EADE6" SelectionChanged="lvStudents_SelectionChanged">
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn Header="Student Id" Width="auto" DisplayMemberBinding="{Binding SId }"/>
+                        <GridViewColumn Header="Student Name" Width="auto" DisplayMemberBinding="{Binding SName  }"/>
+                        <GridViewColumn Header="Enrollment No " Width="auto" DisplayMemberBinding="{Binding Enroll   }"/>
+                        <GridViewColumn Header="Department " Width="auto" DisplayMemberBinding="{Binding Dep   }"/>
+                        <GridViewColumn Header="Semester " Width="auto" DisplayMemberBinding="{Binding Sem }"/>
+                        <GridViewColumn Header="Contact " Width="auto" DisplayMemberBinding="{Binding Contact   }"/>
+                        <GridViewColumn Header="Email " Width="auto" DisplayMemberBinding="{Binding Email   }"/>
+
+                    </GridView>
+                </ListView.View>
+            </ListView>
+            <Grid Name="gridStudent" Background="#FFE4E0E0" HorizontalAlignment="Left" Height="228" Margin="10,402,0,0" VerticalAlignment="Top" Width="756">
+                <Label Content="Student Name" HorizontalAlignment="Left" Margin="44,10,0,0" VerticalAlignment="Top" FontFamily="Calibri" FontSize="14" FontWeight="Bold"/>
+                <Label Content="Enrollment No" HorizontalAlignment="Left" Margin="135,734,0,0" VerticalAlignment="Top" FontFamily="Calibri" FontSize="14" FontWeight="Bold" RenderTransformOrigin="0.686,1.501"/>
+                <Label Content="Enrollment No" HorizontalAlignment="Left" Margin="44,56,0,0" VerticalAlignment="Top" FontFamily="Calibri" FontSize="14" FontWeight="Bold"/>
+                <Label Content="Department" HorizontalAlignment="Left" Margin="44,112,0,0" VerticalAlignment="Top" FontFamily="Calibri" FontSize="14" FontWeight="Bold"/>
+                <Label Content="Semester" HorizontalAlignment="Left" Margin="383,15,0,0" VerticalAlignment="Top" FontFamily="Calibri" FontSize="14" FontWeight="Bold"/>
+                <Label Content="Contact" HorizontalAlignment="Left" Margin="383,64,0,0" VerticalAlignment="Top" FontFamily="Calibri" FontSize="14" FontWeight="Bold"/>
+                <Label Content="Email" HorizontalAlignment="Left" Margin="383,116,0,0" VerticalAlignment="Top" FontFamily="Calibri" FontSize="14" FontWeight="Bold" RenderTransformOrigin="0.294,0.531"/>
+                <TextBox x:Name="tbSName" HorizontalAlignment="Left" Height="23" Margin="170,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="188"/>
+                <TextBox x:Name="tbEnroll" HorizontalAlignment="Left" Height="23" Margin="170,64,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="188"/>
+                <TextBox x:Name="tbDep" HorizontalAlignment="Left" Height="23" Margin="170,116,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="188"/>
+                <TextBox x:Name="tbContact" HorizontalAlignment="Left" Height="23" Margin="514,64,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="194"/>
+                <TextBox x:Name="tbEmail" HorizontalAlignment="Left" Height="23" Margin="514,120,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="194"/>
+                <Button Name="btCancel" Content="Cancel" HorizontalAlignment="Left" Margin="633,172,0,0" VerticalAlignment="Top" Width="75" Height="35"  Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" FontWeight="Bold" BorderBrush="DimGray" Click="btCancel_Click"/>
+                <Button Name="btDelete" Content="Delete" HorizontalAlignment="Left" Margin="523,172,0,0" VerticalAlignment="Top" Width="75" Height="35"  Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" FontWeight="Bold" BorderBrush="DimGray" Click="btDelete_Click" />
+                <Button x:Name="btUpdate" Content="Update" HorizontalAlignment="Left" Margin="408,172,0,0" VerticalAlignment="Top" Width="75" Height="35"  Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" FontWeight="Bold" BorderBrush="DimGray" Click="btUpdate_Click" />
+                <TextBox x:Name="tbSem" HorizontalAlignment="Left" Height="23" Margin="514,15,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="194"/>
+
+            </Grid>
+        </Grid>
+    </ScrollViewer>
+</Window>
+
+<Window x:Class="LibraryManagementSystem.IssueBooks"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LibraryManagementSystem"
+        mc:Ignorable="d"
+        Title="IssueBooks" Height="622.164" Width="800" RenderSize="723,511" Background="#ffc080" WindowStartupLocation="CenterScreen" SizeToContent="WidthAndHeight">
+    <Grid>
+        <Grid HorizontalAlignment="Left" Height="137" Margin="10,0,0,0" VerticalAlignment="Top" Width="774" Background="white" RenderSize="683,125">
+            <Image Source="Image/issueBook.gif" HorizontalAlignment="Left" Height="117" Margin="187,10,0,0" VerticalAlignment="Top" Width="270" Stretch="Fill"/>
+            <Label Content="Issue Books" HorizontalAlignment="Left" Margin="418,51,0,0" VerticalAlignment="Top" FontSize="18" FontFamily="Calibri" FontWeight="Bold" Foreground="#FF3B4EC9" />
+        </Grid>
+        <Grid HorizontalAlignment="Left" Height="442" Margin="10,142,0,0" VerticalAlignment="Top" Width="266" RenderSize="259,368" Background="White">
+            <Image Source="Image/icons8-student-male-100.png" HorizontalAlignment="Left" Height="129" Margin="63,10,0,0" VerticalAlignment="Top" Width="137" Stretch="Fill"/>
+            <Label Content="Enter Enrollment No" HorizontalAlignment="Left" Margin="63,156,0,0" VerticalAlignment="Top" FontSize="16" FontFamily="Calibri" FontWeight="Bold"/>
+            <TextBox HorizontalAlignment="Left" Height="30" Margin="35,191,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="201" FontSize="14"/>
+            <Button x:Name="btSearch" Content="Search Student" HorizontalAlignment="Left" Margin="63,250,0,0" VerticalAlignment="Top" Width="145" RenderTransformOrigin="-0.034,-0.547" Height="43" FontSize="16" FontWeight="Bold" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" BorderBrush="#FF6C6969"/>
+            <Button Name="btRefresh" Content="Refresh" HorizontalAlignment="Left" Margin="35,327,0,0" VerticalAlignment="Top" Width="83" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" FontSize="16" FontWeight="Bold" BorderBrush="#FF6C6969" Height="38"/>
+            <Button x:Name="btExit" Content="Exit" HorizontalAlignment="Left" Margin="151,327,0,0" VerticalAlignment="Top" Width="85" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" FontSize="16" FontWeight="Bold" BorderBrush="#FF6C6969" Height="38"/>
+        </Grid>
+        <Grid HorizontalAlignment="Left" Height="442" Margin="281,142,0,0" VerticalAlignment="Top" Width="503" RenderSize="419,368" Background="#c0ffff"  >
+            <Label Content="Student Name" HorizontalAlignment="Left" Margin="64,25,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" FontFamily="Calibri"/>
+            <Label Content="Department" HorizontalAlignment="Left" Margin="64,72,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" FontFamily="Calibri"/>
+            <Label Content="Student Semester" HorizontalAlignment="Left" Margin="64,118,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.563,0.109" FontSize="14" FontWeight="Bold" FontFamily="Calibri"/>
+            <Label Content="Student Contact" HorizontalAlignment="Left" Margin="64,167,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.484,2.379" FontSize="14" FontWeight="Bold" FontFamily="Calibri"/>
+            <Label Content="Student Emaill" HorizontalAlignment="Left" Margin="64,218,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" FontFamily="Calibri"/>
+            <Label Content="Books Name" HorizontalAlignment="Left" Margin="64,265,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" FontFamily="Calibri"/>
+            <Label Content="Book Issues Date" HorizontalAlignment="Left" Margin="64,312,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" FontFamily="Calibri"/>
+            <TextBox HorizontalAlignment="Left" Height="23" Margin="193,25,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="253" FontSize="14" />
+            <TextBox x:Name="tbEmail" HorizontalAlignment="Left" Height="23" Margin="193,218,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="253" FontSize="14"/>
+            <TextBox x:Name="tbContact" HorizontalAlignment="Left" Height="23" Margin="193,167,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="253" FontSize="14"/>
+            <TextBox x:Name="tbSem" HorizontalAlignment="Left" Height="23" Margin="193,118,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="253" FontSize="14"/>
+            <TextBox x:Name="tbDep" HorizontalAlignment="Left" Height="23" Margin="193,69,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="253" FontSize="14"/>
+            <DatePicker x:Name="dateIssue" HorizontalAlignment="Left" Margin="193,312,0,0" VerticalAlignment="Top" Width="253" Height="27"/>
+            <Button x:Name="btIssue" Content="Issue Book" HorizontalAlignment="Left" Margin="332,362,0,0" VerticalAlignment="Top" Width="114" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" BorderBrush="#FF14ABF1" FontSize="14" FontWeight="Bold" FontFamily="Calibri" Height="34" RenderTransformOrigin="0.857,0.752" BorderThickness="1"/>
+            <Label Name="lblWarning" Content="Maximum 3 Books Can be ISSUED to 1 Student" HorizontalAlignment="Left" Margin="64,401,0,0" VerticalAlignment="Top" Width="382" Height="31" Foreground="#FFCB1A1A" FontSize="16" FontWeight="Bold"/>
+            <ComboBox Name="comboBook" HorizontalAlignment="Left" Margin="193,265,0,0" VerticalAlignment="Top" Width="253" />
+        </Grid>
+
+    </Grid>
+</Window>
+////////////////////////////sql
+ALTER table TABLE_NAME
+ADD CONSTRAINT [name of your PK, e.g. PK_TableName] PRIMARY KEY CLUSTERED (column1, column2, etc.)
+
+
+SName = sName;
+            SEnroll = sEnroll;
+            BName = bName;
+            BAuthor = bAuthor;
+            IssueDate = issueDate;
+            ReturnDate = returnDate;
+        }

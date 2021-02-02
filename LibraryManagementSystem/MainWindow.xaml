@@ -1,0 +1,27 @@
+﻿<Window x:Class="LibraryManagementSystem.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LibraryManagementSystem"
+        mc:Ignorable="d"
+        Title="Form1
+        " Height="550.775" Width="351.147" WindowStartupLocation="CenterScreen" ShowInTaskbar="False" AllowsTransparency="True" WindowStyle="None" Background="#FF4F5A9B" >
+
+    <Grid Margin="4,0,-4,0">
+
+        <Image HorizontalAlignment="Left" Height="135" Margin="94,39,0,0" VerticalAlignment="Top" Width="145" Source="Image/person-icon-blue-18.png" Stretch="Fill"/>
+        <TextBox x:Name="tbusername" Background="#FF4F5A9B" BorderBrush="#FF4F5A9B" Foreground="White" HorizontalAlignment="Left" Height="23" Margin="92,228,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="186" FontFamily="Arial" FontWeight="Bold" FontSize="13" Text="Username" MouseEnter="tbusername_MouseEnter"/>
+        <Image HorizontalAlignment="Left" Height="35" Margin="47,224,0,0" VerticalAlignment="Top" Width="33" Source="Image/person-icon-blue-18.png" RenderTransformOrigin="0.43,0.177"/>
+        <Image HorizontalAlignment="Left" Height="29" Margin="47,292,0,0" VerticalAlignment="Top" Width="33" Source="Image/pass5.png" RenderTransformOrigin="0.43,0.177"/>
+        <WrapPanel Background="white" HorizontalAlignment="Left" Height="3" Margin="95,256,0,0" VerticalAlignment="Top" Width="181" OpacityMask="#FFB22020"/>
+        <WrapPanel Background="white" HorizontalAlignment="Left" Height="3" Margin="92,318,0,0" VerticalAlignment="Top" Width="184" OpacityMask="#FFB22020"/>
+        <Button x:Name="btLogin" Background="#FF2CEAEA" BorderBrush="#FF2CEAEA" Content="Login" HorizontalAlignment="Left" Margin="47,350,0,0" VerticalAlignment="Top" Width="229" Height="38" FontFamily="Microsoft Sans Serif" FontWeight="Bold" FontSize="18" Click="btLogin_Click"/>
+        <Button x:Name="btSignUp" Background="#FF2CEAEA" BorderBrush="#FF2CEAEA" Content="Sign Up" HorizontalAlignment="Left" Margin="47,403,0,0" VerticalAlignment="Top" Width="229" Height="39" FontFamily="Microsoft Sans Serif" FontWeight="Bold" FontSize="18" Click="btSignUp_Click"/>
+        <Button BorderBrush="#FF707070" Background="#FF707070" Foreground="#FFC72828" Content="X" HorizontalAlignment="Left" Margin="315,5,0,0" VerticalAlignment="Top" Width="26" FontWeight="Bold" FontSize="16" RenderTransformOrigin="2.199,0.48" Click="Button_Click"/>
+        <PasswordBox x:Name="tbPassword" Background="#FF4F5A9B" BorderBrush="#FF4F5A9B" Foreground="White" HorizontalAlignment="Left" Margin="95,287,0,0" VerticalAlignment="Top" Width="198" Height="26" Password="Password" MouseEnter="tbPassword_MouseEnter"/>
+
+        <Image x:Name="imgFacebook" HorizontalAlignment="Left" Height="44" Margin="47,467,0,0" VerticalAlignment="Top" Width="43" Source="Image/facebook.png" MouseDown="imgFacebook_MouseDown"/>
+        <Rectangle   HorizontalAlignment="Left" Height="551" Stroke="#FF2CEAEA"  VerticalAlignment="Top" Width="353" StrokeThickness="5" Margin="-5,0,0,0"/>
+    </Grid>
+</Window>
